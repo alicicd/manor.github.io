@@ -71,6 +71,7 @@ body {
         /* justify-content: space-between;
         margin-right: 20px; */
         flex: 1 1 30%; /* grow | shrink | basis */
+        text-align: right;
   
      
     }
