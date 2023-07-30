@@ -5,13 +5,13 @@ body {
   }
   
   h1 {
-    font-size: 40px;
+    font-size: 50px;
     margin-top: 0;
     margin-bottom: 15px;
   }
   
   h2 {
-    font-size: 30px;
+    font-size: 40px;
   }
   
   .established {
@@ -48,7 +48,7 @@ body {
     }
     
     h1, h2 {
-      font-family: Impact, serif;
+      font-family: 'Brush Script MT', cursive;
     }
     
     .item p {
@@ -61,6 +61,8 @@ body {
     .flavor, .dessert {
       text-align: left;
       width: 75%;
+      font-weight: bold;
+      font-family: Geneva, Verdana, sans-serif;
     }
     
     .price {
