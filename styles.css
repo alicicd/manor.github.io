@@ -8,10 +8,13 @@ body {
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 15px;
+    
   }
   
   h2 {
     font-size: 30px;
+    
+    
   }
   
   .established {
@@ -47,8 +50,11 @@ body {
       margin-top: 25px;
     }
     
-    h1, h2 {
-      font-family: Impact, serif;
+    h1 {
+      /* font-family: Impact, serif; */
+      font-family: "Brush Script MT", cursive;
+      font-size: 50px;
+      text-shadow: 3px 3px 3px #ababab;
       
     }
     
