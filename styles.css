@@ -62,19 +62,22 @@ body {
       text-align: left;
       width: 75%;
       font-weight: bold;
+      flex: 1 1 40%;  /* grow | shrink | basis */
     
     }
     
     .size {
    
-        justify-content: space-between;
-        margin-right: 20px;
+        /* justify-content: space-between;
+        margin-right: 20px; */
+        flex: 1 1 30%; /* grow | shrink | basis */
   
      
     }
     .price {
       text-align: right;
       width: 25%;
+      flex: 1 1 30%; /* grow | shrink | basis */
     }
     
 
