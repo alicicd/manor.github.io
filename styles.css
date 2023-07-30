@@ -50,11 +50,11 @@ body {
       margin-top: 25px;
     }
     
-    h1 {
+    h1, h2 {
       /* font-family: Impact, serif; */
       font-family: "Brush Script MT", cursive;
       font-size: 50px;
-      text-shadow: 3px 3px 3px #ababab;
+
       
     }
     
