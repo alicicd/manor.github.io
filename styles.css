@@ -65,11 +65,16 @@ body {
     
     }
     
+    .size {
+        margin-right: 20px; 
+     
+    }
     .price {
       text-align: right;
       width: 25%;
     }
     
+
     /* FOOTER */
     
     footer {
