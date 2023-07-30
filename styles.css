@@ -14,6 +14,7 @@ body {
   h2 {
     font-size: 30px;
     font-family: 'Pacifico', cursive;
+    color: #9c4f2d;
 
   }
   
@@ -23,6 +24,7 @@ body {
   
   h1, h2, p {
     text-align: center;
+    
   }
   
   .menu {
