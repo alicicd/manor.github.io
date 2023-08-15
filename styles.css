@@ -1,121 +1,132 @@
 body {
-    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
-    font-family: sans-serif;
-    padding: 20px;
-  }
-  
-  h1 {
-    font-size: 40px;
-    margin-top: 0;
-    margin-bottom: 15px;
-    
-  }
-  
-  h2 {
-    font-size: 30px;
-    font-family: 'Pacifico', cursive;
-    color: #9c4f2d;
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family: sans-serif;
+  padding: 20px;
+}
 
-  }
-  
-  .established {
-    font-style: italic;
-  }
-  
-  h1, h2, p {
-    text-align: center;
-    
-  }
-  
-  .menu {
-    width: 85%;
-    background-color: burlywood;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    max-width: 500px;
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
 
+h2 {
+  font-size: 30px;
+  font-family: "Pacifico", cursive;
+  color: #9c4f2d;
+}
 
-  }
-  
-  img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: -25px;
-    }
-    hr {
-      height: 2px;
-      background-color: brown;
-      border-color: brown;
-    }
-    
-    .bottom-line {
-      margin-top: 25px;
-    }
-    
-    h1 {
-      /* font-family: Impact, serif; */
-      /* font-family: 'Pacifico', cursive; */
-      font-family: 'Great Vibes', cursive;
-      font-size: 50px;
-    }
+.established {
+  font-style: italic;
+}
 
-    
-    .item p {
-      display: inline-block;
-      margin-top: 5px;
-      margin-bottom: 5px;
-      font-size: 16px;
-      font-family: 'Roboto', sans-serif;
-    }
-    
-    .flavor, .dessert {
-      text-align: left;
-      width: 75%;
-      font-weight: bold;
-      flex: 1 1 40%;  /* grow | shrink | basis */
-    
-    }
-    
-    .size {
-   
-        /* justify-content: space-between;
+h1,
+h2,
+p {
+  text-align: center;
+}
+
+.menu {
+  width: 85%;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25px;
+}
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+h1 {
+  /* font-family: Impact, serif; */
+  /* font-family: 'Pacifico', cursive; */
+  font-family: "Great Vibes", cursive;
+  font-size: 50px;
+}
+
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+.flavor,
+.dessert {
+  text-align: left;
+  width: 75%;
+  font-weight: bold;
+  flex: 1 1 40%; /* grow | shrink | basis */
+}
+
+.size {
+  /* justify-content: space-between;
         margin-right: 20px; */
-        flex: 1 1 30%; /* grow | shrink | basis */
-        text-align: right;
-  
-     
-    }
-    .price {
-      text-align: right;
-      width: 25%;
-      flex: 1 1 30%; /* grow | shrink | basis */
-    }
-    
+  flex: 1 1 30%; /* grow | shrink | basis */
+  text-align: right;
+}
+.price {
+  text-align: right;
+  width: 25%;
+  flex: 1 1 30%; /* grow | shrink | basis */
+}
 
-    /* FOOTER */
-    
-    footer {
-      font-size: 14px;
-    }
-    
-    .address {
-      margin-bottom: 5px;
-    }
-    
-    a {
-      color: black;
-    }
-    
-    a:visited {
-      color: black;
-    }
-    
-    a:hover {
-      color: brown;
-    }
-    
-    a:active {
-      color: brown;
-    }  
+/* FOOTER */
+
+footer {
+  font-size: 14px;
+}
+
+.address {
+  margin-bottom: 5px;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: brown;
+}
+
+/* styles.css */
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+#scrollButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  cursor: pointer;
+}
